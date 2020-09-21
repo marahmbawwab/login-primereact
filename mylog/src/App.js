@@ -1,7 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import primeflex from 'primeflex/primeflex.css';
-import button from 'primereact/button';
 import './App.css';
 
 function App() {
