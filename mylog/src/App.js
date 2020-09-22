@@ -47,7 +47,7 @@ else {
         </div>
       
       <div style={{display:"flex",padding:"10px",marginRight:"80px"}}>
-       <label htmlFor="pass"  style={{width:"100px" ,height:"20px"}}><b>Password</b></label>
+      <label htmlFor="pass"  style={{width:"100px" ,height:"20px"}}><b>Password</b></label>
         <div className="p-password-panel p-password-info">
         <Password value={this.state.pass} name="pass" onChange={this.handlechange}/>
           </div>
