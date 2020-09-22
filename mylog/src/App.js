@@ -36,7 +36,7 @@ export default class App extends React.Component {
             <Password value={this.state.pass} name="pass" onChange={(e) => this.setState({ pass: e.target.value })} />
           </div>
           <div style={{ display: "flex", marginTop: "20px", marginBottom: "20px", marginLeft: "17px", width: "190px" }}>
-            <Button label="LOGIN" onClick={this.handleclick} style={{ width: "100%" }} />
+            <Button className="p-button-rounded" label="LOGIN" onClick={this.handleclick} style={{ width: "100%" }} />
           </div>
         </div>
       </div>
