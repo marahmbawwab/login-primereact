@@ -1,0 +1,45 @@
+.Par{
+    height: 100vh ; 
+    background-Color : rgb(111,111,146) ;
+    display : flex ;
+    flex-Direction : column; 
+    justify-Content: center;
+    align-Items: center
+} 
+p{
+    color: rgb(255,226,226);
+    font-Size: 50px
+}
+.d2 {
+    border-Radius: 20px;
+     width: 600px ;
+      height: 300px ;
+     background-Color: white ;
+      display: flex ; 
+      flex-Direction: column ;
+       align-Items: center ; 
+       justify-Content: center
+}
+.d3 {
+    align-Self: center ;
+    border-Radius: 50% ;
+     margin-Top: 20px  
+}
+.d4 {
+    display: flex ;
+     padding: 10px ;
+      margin-Right: 80px;
+       margin-Top: 20px 
+}
+.d5 {
+    display: flex ;
+     padding: 10px ;
+      margin-Right: 80px 
+}
+#d6 {
+    display: flex ;
+     margin-Top: 20px ;
+      margin-Bottom: 20px ;
+       margin-Left: 17px ;
+        width: 190px 
+}
